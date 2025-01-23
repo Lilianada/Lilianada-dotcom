@@ -65,39 +65,43 @@ export const projects = [
 
 export const stacks = [
     {
+        name: 'Jira',
+        tags: 'Project Management',
+        image: '/image/jira.png'
+    },
+    {
+        name: 'Figma',
+        tags: 'Design',
+        image: '/image/figma.png'
+    },
+    {
         name: 'Notion',
         tags: 'Productivity',
-        description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
         image: '/image/notion.png'
     },
     {
         name: 'Canva',
         tags: 'Design',
-        description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
         image: '/image/canva.png'
     },
     {
         name: 'Next Js',
         tags: 'Javascript Framework',
-        description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
         image: '/image/next.png'
     },
     {
         name: 'Express Js',
         tags: 'Javascript Framework',
-        description: 'Express.js is a back end web application framework for building RESTful APIs with Node.js and designed for building web applications and APIs.',
         image: '/image/express.png'
     },
     {
         name: 'Node Js',
         tags: 'Javascript Framework',
-        description: 'Node.js is a cross-platform, open-source JavaScript runtime environment that runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.',
         image: '/image/node.png'
     },
     {
         name: 'React Js',
         tags: 'Javascript Framework',
-        description: 'React is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more "seamless".',
         image: '/image/react.png'
     }
 ];

@@ -1,6 +1,8 @@
 import React from "react";
+import { useTheme } from "../context/ThemeContext";
 
 const Now = () => {
+  const { theme } = useTheme();
   return (
     <section className="lg:mb-32">
       <div id="now" className="">
@@ -40,8 +42,7 @@ const Now = () => {
 
         <ul className="space-y-4 mb-6 list-disc pl-5">
           <li className="leading-6 text-sm lg:text-base">
-            <strong>Decorating my new home:</strong> Adding pieces of decor and
-            household items to make my new house a home.
+            <strong>75 Soft Challenge:</strong> Embarking on the 75 Soft Challenge for the sake of building new habits and staying discplined doing them for 75 days.
           </li>
 
           <li className="leading-6 text-sm lg:text-base">
@@ -61,7 +62,7 @@ const Now = () => {
           </li>
 
           <li className="leading-6 text-sm lg:text-base">
-            <strong>Being consistent in working on my projects:</strong> Early
+            <strong>Being consistent with working on my projects:</strong> Early
             planning for a minimal task management app.
           </li>
         </ul>
@@ -78,6 +79,9 @@ const Now = () => {
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                color: theme.accent
+              }}
             >
               consider adding one to your site
             </a>
