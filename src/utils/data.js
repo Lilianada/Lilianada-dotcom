@@ -65,6 +65,18 @@ export const projects = [
 
 export const stacks = [
     {
+        name: 'Notion',
+        tags: 'Productivity',
+        description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
+        image: '/image/notion.png'
+    },
+    {
+        name: 'Canva',
+        tags: 'Design',
+        description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
+        image: '/image/canva.png'
+    },
+    {
         name: 'Next Js',
         tags: 'Javascript Framework',
         description: 'Next.js is an open-source web development framework created by the private company Vercel providing React.',
