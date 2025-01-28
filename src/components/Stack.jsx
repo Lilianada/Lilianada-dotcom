@@ -17,7 +17,7 @@ const Stack = () => {
           </h2>
         </div>
         <h2
-            className={`hidden lg:block text-[20px] leading-[36px] font-semibold text-right lg:text-[70px] lg:font-[900] lg:leading-[70px] lg:w-1/3 ml-auto mb-12`}
+            className={`hidden lg:block text-[20px] leading-[36px] font-semibold text-right lg:text-[70px] lg:font-[900] lg:leading-[70px] lg:w-2/5 ml-auto mb-12`}
           >
             <span className="opacity-70">My </span>
             <span style={{ color: theme.primaryText }}>Stacks</span>{" "}
