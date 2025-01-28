@@ -47,6 +47,8 @@ const Project = () => {
                 color: theme.accent,
                 borderColor: theme.accent,
               }}
+              target="_blank"
+              rel="noreferrer"
             >
               <GoArrowUpRight size="20" className="transition-all duration-500" />
               </a>

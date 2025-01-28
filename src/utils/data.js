@@ -43,7 +43,7 @@ export const projects = [
     {
         name: 'Plannr',
         tags: 'Personal Finance App',
-        description: 'Currently managing the team building Plannr, a personal financial management app that is designed to help users keep track and manage their all their money in one interface.',
+        description: 'Currently managing the team building Plannr, a personal financial management app that is designed to help users keep track and manage their all money in one interface.',
         image: '/image/project-screenshot2.jpeg',
         link: '/'
     },
@@ -57,7 +57,7 @@ export const projects = [
     {
         name: 'Cloudnimi',
         tags: 'Landing Page',
-        description: 'Cloudnimi is a one-page B2B website for a Nigerian company focused on business growth through production-grade solutions. Built with React.js and styled with CSS, it provides essential information about the company and its services.',
+        description: 'Cloudnimi is a one-page B2B website for a Nigerian company focused on business growth through production-grade solutions. Built with React.js and styled with SCSS, it provides essential information about the company and its services.',
         image: '/image/project-screenshot4.png',
         link: 'https://cloudnimi.netlify.app/'
     }
