@@ -43,7 +43,7 @@ export const projects = [
     {
         name: 'Plannr',
         tags: 'Personal Finance App',
-        description: 'Currently managing the team building Plannr, a personal financial management app that is designed to help users keep track and manage their all money in one interface.',
+        description: 'Currently managing the team building Plannr, a personal financial management app that is designed to help users keep track, manage and plan for their money all from one interface.',
         image: '/image/project-screenshot2.jpeg',
         link: '/'
     },
