@@ -95,8 +95,8 @@ const Home = () => {
         <div className="w-[30%] bg-gray-100 flex items-center justify-center relative">
           <div className="h-full w-full absolute inset-0">
             <img
-              src="./image/profile-photo.jpeg"
-              alt="Jane Doe"
+              src="./image/profile.JPG"
+              alt="Lilian Ada"
               className="object-cover h-full w-full absolute top-0 left-0 opacity-80"
             />
             <div
