@@ -37,7 +37,7 @@ const About = () => {
         <div className="flex items-center gap-3 mt-6">
           <div className="rounded-full h-16 w-16 flex items-center justify-center">
             <img
-              src="/image/profile-photo.jpeg"
+              src="/image/image.png"
               alt="Avatar"
               className="h-12 w-12 object-cover rounded-full"
             />
