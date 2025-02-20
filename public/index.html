@@ -31,5 +31,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      // Disable right-click context menu
+      document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+      // Disable Inspect Element shortcuts
+      document.addEventListener('keydown', (e) => {
+        if (
+          e.key === 'F12' || 
+          (e.ctrlKey && e.shiftKey && ['I', 'C', 'J'].includes(e.key))
+        ) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </body>
+  
 </html>
+ 

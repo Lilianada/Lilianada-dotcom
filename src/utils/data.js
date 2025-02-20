@@ -27,6 +27,20 @@ export const experiences = [
 
 export const projects = [
     {
+        name: 'Plannr',
+        tags: 'AI-Driven Personal Finance App',
+        description: 'Currently managing the team building Plannr, an app that aims to simplify budgeting, automate savings goals and optimize debt repayment and investment decisions effortlessly through the use of AI-driven tools.',
+        image: '/image/plannr.png',
+        link: 'https://codedbabe.notion.site/Plannr-App-Product-Strategy-Requirements-Doc-PSRD-185f441cd2fd80a9b4ede8d73cd5570c?pvs=4'
+    },
+    {
+        name: 'UpMonie',
+        tags: 'AI-Powered Fintech Startup',
+        description: 'UpMonie is a mobile-first platform designed to help users automate savings and investment through AI-powered recommendations. The platform ensures intelligent financial planning, goal-based savings, and diversified investment opportunities tailored to user financial behavior and goals.',
+        image: '/image/upmonie.png',
+        link: 'https://codedbabe.notion.site/Upmonie-AI-Powered-Fintech-Startup-192f441cd2fd8049b9f8d575efc08cf6?pvs=4'
+    },
+    {
         name: 'Firmco Admin',
         tags: 'Portfolio Management App',
         description: 'This app manages and supervises all aspects of financial transactions and user management within the Firmco platform.',
@@ -41,26 +55,12 @@ export const projects = [
         link: 'https://firmco-client.vercel.app/'
     },
     {
-        name: 'Plannr',
-        tags: 'Personal Finance App',
-        description: 'Currently managing the team building Plannr, a personal financial management app that is designed to help users keep track, manage and plan for their money all from one interface.',
-        image: '/image/project-screenshot2.jpeg',
-        link: '/'
-    },
-    {
         name: 'BeBlended',
         tags: 'Web Application',
         description: 'BeBlended is an online platform connecting Black clients with specialized hairstylists. As a developer, my focus was on building key features for a seamless experience for clients, stylists, and administrators.',
         image: '/image/project-screenshot3.png',
         link: 'https://www.beblended.ca/'
     },
-    {
-        name: 'Cloudnimi',
-        tags: 'Landing Page',
-        description: 'Cloudnimi is a one-page B2B website for a Nigerian company focused on business growth through production-grade solutions. Built with React.js and styled with SCSS, it provides essential information about the company and its services.',
-        image: '/image/project-screenshot4.png',
-        link: 'https://cloudnimi.netlify.app/'
-    }
 ];
 
 export const stacks = [
