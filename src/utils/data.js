@@ -26,13 +26,7 @@ export const experiences = [
 ];
 
 export const projects = [
-    {
-        name: 'Plannr',
-        tags: 'AI-Driven Personal Finance App',
-        description: 'Currently managing the team building Plannr, an app that aims to simplify budgeting, automate savings goals and optimize debt repayment and investment decisions effortlessly through the use of AI-driven tools.',
-        image: '/image/plannr.png',
-        link: 'https://codedbabe.notion.site/Plannr-App-Product-Strategy-Requirements-Doc-PSRD-185f441cd2fd80a9b4ede8d73cd5570c?pvs=4'
-    },
+   
     {
         name: 'UpMonie',
         tags: 'AI-Powered Fintech Startup',
