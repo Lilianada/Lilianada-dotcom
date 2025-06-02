@@ -73,9 +73,9 @@ const Now = () => {
 
         {/* Previously */}
         <div className="mb-4">
-          <h4 className="font-medium text-sm opacity-70 mb-2">
-            As of Februrary, 2025:
-          </h4>
+          <p className="text-xs leading-8 mb-4 italic opacity-70 lg:text-sm">
+          As of <time dateTime="2025-02-02">February 2, 2025</time>
+        </p>
           <ul className="space-y-4 list-disc pl-5 text-muted">
             <li className="leading-6 text-sm lg:text-base line-through">
               <strong style={{ color: theme.accent }}>
@@ -87,9 +87,9 @@ const Now = () => {
           </div>
 
           <div className="mb-4">
-          <h4 className="font-medium text-sm opacity-70 mb-2">
-            As of November, 2024:
-          </h4>
+          <p className="text-xs leading-8 mb-4 italic opacity-70 lg:text-sm">
+          As of <time dateTime="2024-11-24">November 24, 2024</time>
+        </p>
           <ul className="space-y-4 list-disc pl-5 text-muted">
             <li className="leading-6 text-sm lg:text-base line-through">
               <strong style={{ color: theme.accent }}>
