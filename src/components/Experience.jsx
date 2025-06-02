@@ -1,19 +1,21 @@
 import React from "react";
 import { experiences } from "../utils/data";
+import { useTheme } from "../context/ThemeContext";
 
 const Experience = () => {
+  const { theme } = useTheme();
   return (
     <section className="lg:mb-32 relative">
       <div id="experience" className="lg:hidden grid items-center col-span-2 grid-cols-[1fr_auto] gap-4 mb-12">
         <span className="inline-block h-[1.5px] bg-current opacity-50 transition-all duration-300 w-full" />
         <h2
           className="text-[20px] leading-[36px] font-semibold text-right">
-          <span>6 Years </span>
+          <span>4 Years </span>
           <span className="opacity-70">of Experience</span>
         </h2>
       </div>
       <h2 className={`hidden lg:block mb-12 text-right text-[70px] font-[900] leading-[70px] w-3/4 ml-auto`}>
-        <span>6 Years </span>
+        <span>4 Years </span>
         <span className="opacity-70">of Experience</span>
       </h2>
 
@@ -44,7 +46,7 @@ const Experience = () => {
       <div className="hidden lg:block">
         {experiences.map((exp, index) => (
           <div key={index} className="flex mb-6 p-4">
-            <p className={`text-xs leading-4 w-1/4 mt-[6px]`}>
+            <p className={`text-xs leading-4 w-1/4 mt-[6px]`} style={{ color: theme.accent }}>
               {exp.period}
             </p>
             <div className="w-3/4">
